@@ -34,7 +34,7 @@ A Python script that removes duplicate rows, trims spaces, and formats CSV data 
 - 💼 **LinkedIn:** [linkedin.com/in/charandeepdhingra](https://linkedin.com/in/charandeepdhingra)  
 - 🐙 **GitHub:** [github.com/smartcd007](https://github.com/smartcd007)
 
----
+----
 
 ⭐ If you find this portfolio inspiring, please give it a star — it motivates me to keep building!
 
