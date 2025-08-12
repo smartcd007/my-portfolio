@@ -1,42 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Charandeep's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Charandeep Singh Dhingra — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <header>
-    <h1>Charandeep Singh Dhingra</h1>
-    <p>Aspiring Developer | Just Starting | Always Learning</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Charandeep Dhingra</h1>
+        <p class="muted">Aspiring Full-Stack Java Developer</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a Biomedical Engineer turned Product Analyst and Developer. I work with VBA, Alteryx, HTML, and I'm now learning full-stack development. I believe it's never too late to chase growth.</p>
-  </section>
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Hi, I’m Charandeep 👋</h2>
+          <p>I build simple, reliable backend APIs and small web apps — currently learning Java, Spring Boot and building real projects.</p>
+          <a class="btn" href="#projects">View Projects</a>
+        </div>
+        <div class="hero-img">
+          <!-- If you have a profile image, put it in images/profile.jpg and update the src -->
+          <img src="images/profile.png" alt="Charandeep Singh Dhingra">
+        </div>
+      </div>
+    </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>VBA Automation</li>
-      <li>Alteryx (Core Certified)</li>
-      <li>HTML, CSS, JavaScript (Beginner)</li>
-      <li>Python, SQL</li>
-    </ul>
-  </section>
+    <section id="about" class="section">
+      <div class="container">
+        <h3>About Me</h3>
+        <p>I started as a math teacher and moved to software — now learning Java and building backend projects. I enjoy clean code, small demos and practical learning.</p>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>This portfolio website is my first project. More coming soon!</p>
-  </section>
+        <div class="skills">
+          <span class="pill">Java</span>
+          <span class="pill">Spring Boot</span>
+          <span class="pill">SQL / Oracle</span>
+          <span class="pill">Git</span>
+          <span class="pill">VS Code</span>
+        </div>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: smartcd007@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/charandeepsinghdhingra" target="_blank">Charandeep's Profile</a></p>
-  </section>
+<section id="projects" class="section">
+  <div class="container">
+    <h3>Projects</h3>
 
+    <div class="grid">
+
+      <!-- Quote of the Day API -->
+      <article class="card">
+        <img src="images/quote-api.png" alt="Quote of the Day API">
+        <h4>Quote of the Day API</h4>
+        <p>Spring Boot REST API that returns quotes. Good starter project showing endpoints and basic tests.</p>
+        <p class="links">
+          <a href="https://github.com/smartcd007/quote-of-the-day-api" target="_blank" rel="noopener noreferrer">Source</a> · 
+          <a href="https://smartcd007.github.io/quote-of-the-day-api" target="_blank" rel="noopener noreferrer">Demo</a>
+        </p>
+      </article>
+
+      <!-- CSV Data Cleaner -->
+      <article class="card">
+        <img src="images/csv-cleaner.png" alt="CSV Data Cleaner">
+        <h4>CSV Data Cleaner</h4>
+        <p>Python script that removes duplicates and normalizes CSVs before analysis — small but practical.</p>
+        <p class="links">
+          <a href="https://github.com/smartcd007/csv-data-cleaner" target="_blank" rel="noopener noreferrer">Source</a> · 
+          <a href="https://smartcd007.github.io/csv-data-cleaner" target="_blank" rel="noopener noreferrer">Sample</a>
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:smartcd007@gmail.com">smartcd007@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/charandeepsinghdhingra" target="_blank">charandeepsinghdhingra</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Charandeep Singh Dhingra — Built with ❤️</p>
+    </div>
+  </footer>
 </body>
 </html>
+
